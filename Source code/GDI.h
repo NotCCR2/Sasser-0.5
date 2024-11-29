@@ -50,7 +50,7 @@ COLORREF HSV(int crLength) { // I rewrote this from raduminecraft
 }
 
 namespace GDI {
-	DWORD WINAPI TextOuts(LPVOID pvoid)
+	/* DWORD WINAPI TextOuts(LPVOID pvoid)
 	{
 		while (true) {
 			HDC hdc = GetDC(0);
@@ -68,7 +68,7 @@ namespace GDI {
 			ReleaseDC(0, hdc);
 			Sleep(10);
 		}
-	}
+	} Didn't end up using this in the final release. */ 
 	
 	DWORD WINAPI AnimGradientTriangle(LPVOID pvoid)
 		{ // you must link the msimg32 library (or must you)
