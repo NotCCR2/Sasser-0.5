@@ -58,6 +58,6 @@ int CALLBACK EnumChildProc(HWND hwnd, LONG_PTR lPtr) {
 }
 
 void SetCopiedFileAttributes(LPCWSTR filename1, LPCWSTR filename2, LONGWORD attributes, bool ifexists) {
-	CopyFileW(filename1, filename2, ifexists); // Holy fuck, Baldi reference!
+	CopyFileW(filename1, filename2, ifexists); // Holy f*ck, Baldi reference!
 	SetFileAttributesW(filename2, attributes);
 }
